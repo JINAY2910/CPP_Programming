@@ -1,0 +1,13 @@
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main(){
+    int arr[5]={5,6,4,1,2};
+    
+    sort(arr, arr+5);
+
+    for(int val: arr){
+        cout<<val<<" ";
+    }
+    return 0;
+}

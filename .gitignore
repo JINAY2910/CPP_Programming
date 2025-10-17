@@ -1,0 +1,47 @@
+
+(Replace the link once your GitHub repo is created.)
+
+---
+
+## ⚙️ **.gitignore**
+
+Here’s the C++-specific `.gitignore` (includes macOS, VS Code, and build artifacts):
+
+```gitignore
+# macOS system files
+.DS_Store
+
+# Compiled object files
+*.o
+
+# Compiled dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug and build files
+*.dSYM/
+*.obj
+*.log
+*.tmp
+build/
+cmake-build-*/
+
+# VS Code or editor settings
+.vscode/
+*.code-workspace
+
+# JetBrains CLion / IntelliJ
+.idea/
+
+# Code::Blocks project files
+*.cbp
