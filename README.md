@@ -1,4 +1,4 @@
-# C++ Practice Projects 🚀
+# C++ Guide 🚀
 
 This repository contains a collection of **C++ programs** designed to help learn the basics, practice challenging topics, and work on a mini-project for hands-on experience. 💻✨
 
